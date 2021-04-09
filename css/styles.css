@@ -258,78 +258,11 @@ img{
   border-radius: .5rem;
 }
 
-/* ===== SKILLS =====*/
-.skills__container{
-  row-gap: 2rem;
+/* ===== Work section =====*/
+.Work__container{
+  
   text-align: center;
 }
-.skills__subtitle{
-  margin-bottom: var(--mb-2);
-}
-.skills__text{
-  margin-bottom: var(--mb-4);
-}
-.skills__data{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: relative;
-  font-weight: var(--font-semi);
-  padding: .5rem 1rem;
-  margin-bottom: var(--mb-4);
-  border-radius: .5rem;
-  box-shadow: 0 4px 25px rgba(14,36,49,.15);
-}
-.skills__icon{
-  font-size: 2rem;
-  margin-right: var(--mb-2);
-  color: var(--first-color);
-}
-.skills__names{
-  display: flex;
-  align-items: center;
-}
-.skills__bar{
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  background-color: var(--first-color);
-  height: .25rem;
-  border-radius: .5rem;
-  z-index: var(--z-back);
-}
-.skills__html{
-  width: 95%;
-}
-.skills__css{
-  width: 85%;
-}
-.skills__js{
-  width: 65%;
-}
-.skills__ux{
-  width: 85%;
-}
-.skills__img{
-  border-radius: .5rem;
-}
-
-/* ===== WORK =====
-.work__container{
-  row-gap: 2rem;
-}
-.work__img{
-  box-shadow: 0 4px 25px rgba(14,36,49,.15);
-  border-radius: .5rem;
-  overflow: hidden;
-}
-.work__img img{
-  transition: 1s;
-  cursor: pointer;
-}
-.work__img img:hover{
-  transform: scale(1.1);
-}*/
 
 /* ===== CONTACT =====*/
 .contact__input{
@@ -439,11 +372,11 @@ img{
   .about__img img{
     width: 300px;
   }
-  .work__container{
+ /* .work__container{
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2,1fr);
     column-gap: 2rem;
-  }
+  }*/
   .contact__form{
     width: 360px;
   }
@@ -462,117 +395,7 @@ img{
   }
 }
 
-/* Skill Section */
-
-.skills-section{
-  padding-top: 20px;
-  }
-  
-  .skills-header{
-  text-align: center;
-  color: #fff;
-  padding: 1rem;
-  position: relative;
-  }
-  
-  .skills-header:after{
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100px;
-  height: 4px;
-  background-color: var(--first-color);
-  border-radius: 2px;
-  }
-  
-  .skills-container{
-  display: grid;
-  grid-tempLate-columns: repeat(5, 1fr);
-  justify-content:center;
-  align-items:center;
-  text-align: center;
-  grid-gap:1rem;
-  padding: 1rem 80px;
-  font-size: 1.2rem;
-  }
-  .skills-box{
-  padding: 1rem;
-  color: #000;
-  cursor:pointer;
-  }
-  .skills-box:hover > .skills-title: after, 
-  .skills-box:hover > .skills-title: before{
-  width: 30px;
-  }
-  .skills-box:hover .skills-img{
-  transform: translateX(-20px);
-  }
-  
-  .skills-title{
-  display:flex;
-  flex-direction: column;
-  align-items:center;
-  padding: 0.5rem;
-  margin-bottom: 0.5rem;
-  position: relative;
-  }
-  
-  .skills-title:after{
-  content: '';
-  position:absolute;
-  bottom: 0;
-  right: 50%;
-  width:20px;
-  height:4px;
-  border-radius: 2px 0 0 2px;
-  /* background-color: #2ecc71; */
-  transition: .5s;
-  }
-  
-  .skills-title:before{
-  content: '';
-  position:absolute;
-  bottom: 0;
-  left: 50%;
-  width:100px;
-  height:4px;
-  border-radius: 0 2px 2px 0;
-  /* background-color: #2ecc71; */
-  }
-  
-  .skills-icons{
-  width:50px;
-  z-index:2;
-  }
-  
-  .skills-img{
-  width:90px;
-  height:90px;
-  position: relative;
-  border-radius: 45px;
-  background-color: #fff;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  transition: .5s;
-  }
-  
-  .skills-img:after{
-  content: '';
-  position:absolute;
-  top:0;
-  left: 0;
-  width:50%;
-  height:90px;
-  background: rgba(100, 100, 100, 0.5);
-  border-radius: 45px 0 0 45px;
-  }
-  .skills-title h4{
-  color: var(--second-color);
-  margin-top: 0.5rem;
-  }
+/* Skill Section 
   @media screen and (max-width:990px){
    .skills-container{
    grid-tempLate-columns: repeat(2, 1fr);
@@ -585,18 +408,9 @@ img{
    grid-tempLate-columns:2fr;
    padding: 2rem 50px;
    }
-  }
+  }*/
 
-  /* Certification */
-  .grid {
-    position: relative;
-    margin: 0 auto;
-    padding: 1em 0 4em;
-    max-width: 1000px;
-    list-style: none;
-    text-align: center;
-  }
-  
+ 
   /* Common style */
   .grid figure {
     position: relative;

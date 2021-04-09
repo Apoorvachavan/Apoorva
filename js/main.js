@@ -54,21 +54,21 @@ sr.reveal('.section-title',{});
 sr.reveal('.Work__subtitle',{delay: 400}); 
 sr.reveal('.Work__text',{delay: 400}); 
 
-/*SCROLL SKILLS*/
+/*SCROLL SKILLS
 sr.reveal('.section-title',{}); 
 sr.reveal('.skills__subtitle',{delay: 400}); 
 sr.reveal('.skills__text',{delay: 400}); 
 
 
-/*SCROLL CERTIFICATE*/
+/*SCROLL CERTIFICATE
 sr.reveal('.section-title',{}); 
 sr.reveal('.certificate__subtitle',{delay: 400}); 
 sr.reveal('.certificate__text',{delay: 200}); 
 
-/*SCROLL PROJECT*/
+/*SCROLL PROJECT
 sr.reveal('.section-title',{}); 
 sr.reveal('.project__subtitle',{delay: 400}); 
-sr.reveal('.card',{delay: 400}); 
+sr.reveal('.card',{delay: 400}); */
 
 /*SCROLL CONTACT*/
 sr.reveal('.contact__input',{interval: 100}); 
