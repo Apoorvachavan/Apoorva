@@ -919,15 +919,6 @@ img{
     }
   }
 
-  /* Card CSS */
-  .card-title{
-    color: #000;
-  }
-
-  .card-text{
-    color: #000;
-  }
-  
 
 /* Tilt effect */
 #tilt {
@@ -935,10 +926,25 @@ img{
   margin: 0 auto;
   margin-top: 10%;
   margin-bottom: -2%;
-  transition:  0.1s, transform 0.1s;
-  
+  transition:  0.1s, transform 0.1s;  
 }
 
 #tilt:hover {
   cursor: pointer;
 }  
+
+/*Photos*/
+.photos__container{
+    display: flex;
+  justify-content: center;
+    margin: 5%;
+}
+
+.photos__container img{
+  border-radius: 5%;
+  padding: 5px;
+  /*margin: 5%;
+  max-height: 100%;
+  max-width: 100%;    
+*/
+}

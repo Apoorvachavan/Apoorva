@@ -56,7 +56,7 @@ sr.reveal('.Work__text',{delay: 400});
 
 /*SCROLL Photos*/
 sr.reveal('.section-title',{}); 
-sr.reveal('.imgBox',{delay: 400}); 
+sr.reveal('.photos__container',{delay: 400}); 
 
 /*SCROLL CONTACT*/
 sr.reveal('.contact__input',{interval: 100}); 
