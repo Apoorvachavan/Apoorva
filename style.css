@@ -1,4 +1,4 @@
-/*Pics Transformation*/
+/*Photos #Pics Transformation*/
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
 /**{
     margin: 0;
@@ -13,7 +13,7 @@ body
     align-items: center;
     min-height: 100vh;
 }*/
-.container
+.photos__container
 {
     position: relative;
     width: 900px;

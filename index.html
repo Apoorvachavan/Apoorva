@@ -8,12 +8,12 @@
     content="Apoorva Chavan, Apoorva, Chavan, ApoorvaChavan, Chavan Apoorva, ChavanApoorva, ChavanApurva, ApurvaChavan, Apurva Chavan, ApoorvaChavan2013, apchavan">
     <META name="description"
         content="Official Website of Apoorva Chavan">
-    <link rel="shortcut icon" href="Images/profile.jpg" type="image/jpeg">
-    <link rel="canonical" href="https://ApoorvaChavan.ml/">
+    <link rel="shortcut icon" href="img/profile.jpg" type="image/jpeg">
+    <link rel="canonical" href="https://ApoorvaChavan.ml">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" type="text/css" href="style.css">
 
         <!-- =====BOX ICONS===== -->
@@ -61,12 +61,10 @@
                 <div class="home__data">
             
 <!--===== intro =====
-                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Tejaswa Wadekar</span><br> Full Stack Web Developer| Data Scientist|
-                        IT Support Specialist</h1>-->
-                    
                     <!--===== Circle =====-->
-                 <img id="tilt" class="rounded-circle d-block mx-auto m-3" src="img/ApooCircle.png" height="500 px" width="500px" >   
-                    
+                    <div class="home__img">
+                        <img id="tilt" class="rounded-circle d-block mx-auto m-3" src="img/ApooCircle.png" height="500 px" width="500px" >   
+                    </div>
 
                     <a href="#contact" class="button">Contact</a>
                 </div>
@@ -160,7 +158,7 @@
             <!-- Photos Section -->
             <section class="photos section" id="photos" >
                 <h2 class="section-title">Pics</h2>
-                <div class="container">
+                <div class="photos__container">
                     <div class="imgBox">    <!--First img-->
                         <img src="img/s1.JPG">
                         <img src="img/s2.JPG">   
@@ -170,7 +168,6 @@
                         <img src="img/d2.JPG">   
                     </div>
                 </div>
-            
             </section>
             <!-- /Photos -->
             
@@ -217,7 +214,7 @@
         <!--===== Pics Distortion=====-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r118/three.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.1/gsap.min.js"></script>
-        <script src="hover.js"></script>
+        <script src="js/hover.js"></script>
         <script type="text/javascript">
             Array.from(document.querySelectorAll('.imgBox')).forEach((e) => {
                 const imgs = Array.from(e.querySelectorAll('img'));
