@@ -212,12 +212,12 @@ img{
 .home__social{
   display: flex;
   flex-direction: column;
-}
+  }
 .home__social-icon{
   width: max-content;
   margin-bottom: var(--mb-2);
-  font-size: 1.5rem;
   color: white;
+  font-size: 300%;
 }
 .home__social-icon:hover{
   color: var(--first-color);
@@ -264,7 +264,7 @@ img{
   text-align: center;
 }
 
-/* ===== CONTACT =====*/
+/* ===== CONTACT =====
 .contact__input{
   width: 100%;
   font-size: var(--normal-font-size);
@@ -282,7 +282,7 @@ img{
   font-size: var(--normal-font-size);
   cursor: pointer;
   margin-left: auto;
-}
+}*/
 
 /* ===== FOOTER =====*/
 .footer{
@@ -293,7 +293,6 @@ img{
   font-weight: var(--font-semi);
   padding: 2rem 0;
   border-top: 0.5px solid;
-
 }
 .footer__title{
   font-size: 2rem;
